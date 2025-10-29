@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">EmprendeSoacha</string>
+    <string name="title_activity_main">EmprendeSoacha</string>
+    <string name="package_name">com.emprendesoacha.app</string>
+    <string name="custom_url_scheme">com.emprendesoacha.app</string>
+</resources>

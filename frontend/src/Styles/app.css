@@ -1,0 +1,75 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* ====== ENCABEZADO PRINCIPAL ====== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+/* ====== NAV ====== */
+nav {
+  display: flex;
+  gap: 12px;
+}
+
+nav button {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #e9ecef;
+}
+
+nav button:active {
+  transform: scale(0.97);
+}
+
+/* Botones especiales */
+.btn-yellow {
+  background-color: #ffc107;
+}
+
+.btn-green {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #218838;
+}
+
+/* ====== CONTENIDO PRINCIPAL ====== */
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ====== MENSAJES ====== */
+p {
+  margin: 0;
+  padding: 5px 0;
+}

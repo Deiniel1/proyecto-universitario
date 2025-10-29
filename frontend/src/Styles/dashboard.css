@@ -1,0 +1,165 @@
+.dashboard-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-title {
+  font-size: 28px;
+  color: #2a2a2a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.emprendimiento-info {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.add-btn {
+  background-color: #007b5e;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #009b7d;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.product-info h4 {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.product-info p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.price {
+  display: inline-block;
+  font-weight: bold;
+  color: #007b5e;
+  margin-bottom: 10px;
+}
+
+.product-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #ffcd39;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.no-products {
+  text-align: center;
+  color: #888;
+  margin-top: 30px;
+}
+
+.status-msg {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: 500;
+  color: #007b5e;
+}
+.activate-btn,
+.deactivate-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.activate-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.activate-btn:hover {
+  background-color: #218838;
+}
+
+.deactivate-btn {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.deactivate-btn:hover {
+  background-color: #e0a800;
+}
