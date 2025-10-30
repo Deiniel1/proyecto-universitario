@@ -22,3 +22,7 @@ Thumbs.db
 frontend/android/.gradle/
 frontend/android/.idea/
 frontend/android/local.properties
+
+# sqlite
+*.sqlite
+!db.sqlite
